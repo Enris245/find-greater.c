@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int x,y;
+printf("enter two numbers to find greatest among them");
+scanf("%d %d",&x,&y);
+printf("the greater number is %d",(x>y)?x:y);
+
+}
